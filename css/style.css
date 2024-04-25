@@ -1,9 +1,9 @@
-/* logo font import */
-@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
-
-
-.logo {
-    font-family: "Mate SC", serif;
-    font-weight: 400;
-    font-style: normal;
+.main-content {
+    background-color: black;
+    /* height: 500px; */
 }
+
+/* .text {
+    font-size: 1000px;
+} */
+
