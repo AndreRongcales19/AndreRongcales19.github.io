@@ -1,4 +1,58 @@
 .navbar-introduction {
-    /* background-color: black; */
-    color: white;
+    background-color: black;
 }
+
+.introduction {
+    height: 40vw;
+}
+
+.white-line {
+    border-bottom: 1px solid rgba(255,255,255,.25);
+    width: 70vw;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    /* font-optical-sizing: auto; */
+  font-weight: weight;
+  /* font-style: normal; */
+  font-size: 3vw;
+}
+
+.white-lines-1 {
+    position: relative;
+    top: 200px;
+    right: 700px;
+    border-bottom: 4px solid white;
+    width: 10vw;
+    margin: auto;
+}
+
+.white-lines-2 {
+    position: relative;
+    top: 205px;
+    right: 600px;
+    border-bottom: 4px solid white;
+    width: 10vw;
+    margin: auto;
+}
+
+.white-lines-3 {
+    position: relative;
+    top: 560px;
+    left: 700px;
+    border-bottom: 4px solid white;
+    width: 10vw;
+    margin: auto;
+}
+
+.white-lines-4 {
+    position: relative;
+    top: 565px;
+    left: 600px;
+    border-bottom: 4px solid white;
+    width: 10vw;
+    margin: auto;
+}
+
