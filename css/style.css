@@ -3,7 +3,7 @@
 }
 
 .introduction-page {
-    height: 40vw;
+    height: 50vw;
 }
 
 .white-line {
@@ -75,6 +75,10 @@ h1 {
 } */
 
 #about-me {
-    height: 40vw;
-    background-color: #1A1A1A;
+    height: 50vw;
+    background-color: #141414;
+}
+
+.about-photo {
+    height: 100vb;
 }
