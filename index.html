@@ -19,52 +19,56 @@
 
 <body>
   <section class="navbar-introduction container-fluid">
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-sm">
-        <a class="navbar-brand text-white" href="#">Tokasa</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#about-me">About me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#">Pricing</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="navbar-text text-white text-decoration-none" href="#">
-                Contact me
-              </a>
-            </li>
-          </ul>
-
-
+    <div class="d-flex flex-column navbar-container sticky-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-sm">
+          <a class="navbar-brand text-white" href="#">Tokasa</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about-me">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Pricing</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="navbar-text text-white text-decoration-none" href="#">
+                  Contact me
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <div class="white-line"></div>
+        <div>
+        </div>
+      </nav>
+      <div class="white-line"></div>
+    </div>
+
+    
     <!-- <div class="white-lines-1"></div>
     <div class="white-lines-2"></div>
     <div class="white-lines-3"></div>
     <div class="white-lines-4"></div>
     <div class="white-lines-5"></div>
     <div class="white-lines-6"></div> -->
-    <div class="introduction-page container-sm d-flex align-items-center">
-      <h1 class="text-white">"I find programming empowering as it allows me to create, solve problems, and build
+    <div class="introduction-container container-sm d-flex align-items-center">
+      <h1 class="text-white introduction-text">"I find programming empowering as it allows me to create, solve problems, and build
         innovative solutions."
       </h1>
     </div>
   </section>
   <section id="about-me" class="container-fluid">
-    <div class="row d-flex justify-content-center about-me-container">
+    <div class="row d-flex justify-content-center">
       <div class="col-lg-6 d-flex align-items-center me-ato">
         <p class="text-white about-me-paragraph">"Hallo, I am Hubert Andre Rongcales and I am 19 years old and born in
           the Philippines. Playing games is one of
@@ -79,10 +83,16 @@
     </div>
   </section>
   <section id="projects" class="container-fluid">
-    <div class="projects-container d-flex flex-column justify-content-center">
-      <a class="project-links float-end" href="hoger-lager-html"><h2>HOGER LAGER</h2></a>
-      <a class="project-links float-end" href="zeeslag.html"><h2>ZEESLAG</h2></a>
-      <a class="project-links float-end" href="kijkshop.html"><h2>KIJKSHOP</h2></a>
+    <div class="projects-container d-flex flex-column justify-content-center px-4">
+      <a class="float-end" href="/projects/hoger-lager.html">
+        <h2 class="project-links">HOGER LAGER</h2>
+      </a>
+      <a class="float-end" href="/projects/zeeslag.html">
+        <h2 class="project-links">ZEESLAG</h2>
+      </a>
+      <a class="float-end" href="/projects/kijkshop.html">
+        <h2 class="project-links">KIJKSHOP</h2>
+      </a>
     </div>
   </section>
 </body>
