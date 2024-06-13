@@ -7,6 +7,10 @@
 
 /* NAVBAR PAGE */
 
+.navbar-toggler-icon {
+    color: white;
+}
+
 .navbar-introduction {
     background-image: url(/img/Shiny\ Overlay.svg);
     background-repeat: no-repeat;
