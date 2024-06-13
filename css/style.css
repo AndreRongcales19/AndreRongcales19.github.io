@@ -19,65 +19,12 @@
     margin: auto;
 }
 
-/* .white-lines-1 {
-    position: relative;
-    top: 20vh;
-    right: 40vw;
-    border-bottom: 4px solid white;
-    width: 10vw;
-    margin: auto;
-}
-
-.white-lines-2 {
-    position: relative;
-    top: ;
-    right: ;
-    border-bottom: 4px solid white;
-    width: 10vw;
-    margin: auto;
-}
-
-.white-lines-3 {
-    position: relative;
-    top: ;
-    right: ;
-    border-bottom: 4px solid white;
-    width: 10vw;
-    margin: auto;
-}
-
-.white-lines-4 {
-    position: relative;
-    top: 700px;
-    left: ;
-    border-bottom: 4px solid white;
-    width: 10vw;
-    margin: auto;
-}
-
-.white-lines-5 {
-    position: relative;
-    top: px;
-    right: ;
-    border-bottom: 4px solid white;
-    width: 10vw;
-    margin: auto;
-}
-
-.white-lines-6 {
-    position: relative;
-    top: ;
-    right: ;
-    border-bottom: 4px solid white;
-    width: 10vw;
-    margin: auto;
-} */
-
 
 /* INTRODUCTION PAGE  */
 
 .introduction-container {
-    height: 50vw;
+    padding-top: 20vw;
+    padding-bottom: 20vw;
 }
 
 .introduction-text {
@@ -134,4 +81,23 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
     -moz-text-fill-color: transparent; 
+}
+
+/* INDIVIDUAL PROJECT CONTAINERS */ 
+.project-container {
+    background-color: #252323;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}
+
+#contact {
+    background-color: #252323;
+}
+
+form {
+    color: white;
+}
+
+#Firstname, #Lastname, #Email, #Message {
+    width: 20vw;
 }
