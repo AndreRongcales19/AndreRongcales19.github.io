@@ -18,6 +18,7 @@
 </head>
 
 <body>
+  <!-- first section -->
   <section class="navbar-introduction container-fluid">
     <div class="d-flex flex-column navbar-container sticky-top">
       <nav class="navbar navbar-expand-lg">
@@ -57,10 +58,12 @@
       </h1>
     </div>
   </section>
+  <!-- second section -->
   <section id="about-me" class="container-fluid">
     <div class="row d-flex justify-content-center">
       <div class="col-9 d-flex align-items-center">
-        <p class="text-white about-me-paragraph px-5">"Hallo, I am Hubert Andre Rongcales and I am 19 years old and born in
+        <p class="text-white about-me-paragraph px-5 fs-4 fw-medium">"Hallo, I am Hubert Andre Rongcales and I am 19 years old and born
+          in
           the Philippines. Playing games is one of
           my hobbies at home, but I also do a lot of sports like volleyball, basketball and lifting.
           Currently, I am studying Software Development in Delft, Netherlands. I have mastered HTML, CSS and JavaScript
@@ -72,49 +75,53 @@
       </div>
     </div>
   </section>
-  <section id="projects" class="container-fluid">
-    <div class="projects-container d-flex flex-column justify-content-center px-4">
+  <!-- third section -->
+  <section id="projects" class="container-fluid py-5">
+    <div class="projects-container d-flex flex-column justify-content-center pe-5 py-5">
       <a class="float-end" href="/projects/hoger-lager.html">
-        <h2 class="project-links">HOGER LAGER</h2>
+        <h2 class="project-links fw-semibold text-white">HOGER LAGER</h2>
       </a>
       <a class="float-end" href="/projects/zeeslag.html">
-        <h2 class="project-links">ZEESLAG</h2>
+        <h2 class="project-links fw-semibold text-white">ZEESLAG</h2>
       </a>
       <a class="float-end" href="/projects/kijkshop.html">
-        <h2 class="project-links">KIJKSHOP</h2>
+        <h2 class="project-links fw-semibold text-white">KIJKSHOP</h2>
       </a>
     </div>
   </section>
+  <!-- fourth section -->
   <section id="contact" class="container-fluid">
-    <div class="row">  
-      <div class="col-7">
-        
-      </div>
-      <div class="col-5">
-        <form class="py-5">      
-          <div class="mb-3">
-            <label for="Firstname" class="form-label">Firstname</label>
-            <input type="email" class="form-control" id="Firstname" aria-describedby="emailHelp" placeholder="Type your firstname..">
-          </div>
-          <div class="mb-3">
-            <label for="Lastname" class="form-label">Lastname</label>
-            <input type="email" class="form-control" id="Lastname" aria-describedby="emailHelp" placeholder="Type your lastname..">
-          </div>
-          <div class="mb-3">
-            <label for="Email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Type your email..">
-            <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
-          </div>
-          <div class="mb-3">
-            <label for="Message" class="form-label">Example textarea</label>
-            <textarea class="form-control" id="Message" rows="3" placeholder="Write your Message.."></textarea>
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="checkbox">
-            <label class="form-check-label" for="checkbox">Check me out</label>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+    <div class="container-md d-flex justify-content-center">
+      <div class="row">
+        <div class="col">
+          <form class="py-5 text-white">
+            <div class="mb-3">
+              <label for="Firstname" class="form-label">Firstname</label>
+              <input type="email" class="form-control" id="Firstname" aria-describedby="emailHelp"
+                placeholder="Type your firstname..">
+            </div>
+            <div class="mb-3">
+              <label for="Lastname" class="form-label">Lastname</label>
+              <input type="email" class="form-control" id="Lastname" aria-describedby="emailHelp"
+                placeholder="Type your lastname..">
+            </div>
+            <div class="mb-3">
+              <label for="Email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="Email" aria-describedby="emailHelp"
+                placeholder="Type your email..">
+              <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="Message" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="Message" rows="3" placeholder="Write your Message.."></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="checkbox">
+              <label class="form-check-label" for="checkbox">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
       </div>
     </div>
   </section>

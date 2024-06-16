@@ -3,8 +3,6 @@
     padding: 0;
 }
 
-/* !!INDEX.HTML!! */
-
 /* NAVBAR PAGE */
 
 .navbar-toggler-icon {
@@ -39,29 +37,15 @@
 
 /* ABOUT ME PAGE */
 
-.about-me-container {
-    height: 40vw;
-}
-
 .about-me-paragraph {
-    font-size: 1.5vw;
     font-family: "Oswald", sans-serif;
-    font-weight: weight;
 }
 
 #about-me {
     background-color: #252323;
 }
 
-.about-photo {
-    height: 40vw;
-}
-
 /* PROJECTS PAGE */
-
-.projects-container {
-    height: 40vw;
-}
 
 #projects {
     background-color: black;
@@ -69,10 +53,8 @@
 
 .project-links {
     font-family: "Covik Sans", Verdana, sans-serif;
-    font-weight: bolder;
     font-size: 8vw;
     transition: transform .2s;
-    color: white;
     float: right;
 }
 
@@ -90,18 +72,12 @@
 /* INDIVIDUAL PROJECT CONTAINERS */ 
 .project-container {
     background-color: #252323;
-    padding-top: 3vw;
-    padding-bottom: 3vw;
 }
 
 #contact {
     background-color: #252323;
 }
 
-form {
-    color: white;
-}
-
 #Firstname, #Lastname, #Email, #Message {
-    width: 20vw;
+    width: 50vw;
 }
