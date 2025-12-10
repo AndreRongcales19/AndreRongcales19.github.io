@@ -94,37 +94,62 @@
     <div class="container-md d-flex justify-content-center">
       <div class="row">
         <div class="col">
-          <form class="py-5 text-white">
+          <form class="py-5 text-white needs-validation" id="contactForm" novalidate>
+            <h2 class="text-white mb-4">Contact me</h2>
             <div class="mb-3">
               <label for="Firstname" class="form-label">Firstname</label>
-              <input type="text" class="form-control" id="Firstname" aria-describedby="emailHelp"
-                placeholder="Type your firstname..">
+              <input type="text" class="form-control" id="Firstname" name="firstname" placeholder="Type your firstname.." required>
+              <div class="invalid-feedback">Please enter your firstname.</div>
             </div>
             <div class="mb-3">
               <label for="Lastname" class="form-label">Lastname</label>
-              <input type="text" class="form-control" id="Lastname" aria-describedby="emailHelp"
-                placeholder="Type your lastname..">
+              <input type="text" class="form-control" id="Lastname" name="lastname" placeholder="Type your lastname.." required>
+              <div class="invalid-feedback">Please enter your lastname.</div>
             </div>
             <div class="mb-3">
               <label for="Email" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="Email" aria-describedby="emailHelp"
-                placeholder="Type your email..">
+              <input type="email" class="form-control" id="Email" name="email" aria-describedby="emailHelp"
+                placeholder="Type your email.." required>
               <div id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</div>
+              <div class="invalid-feedback">Please enter a valid email.</div>
             </div>
             <div class="mb-3">
-              <label for="Message" class="form-label">Example textarea</label>
-              <textarea class="form-control" id="Message" rows="3" placeholder="Write your Message.."></textarea>
+              <label for="Subject" class="form-label">Subject</label>
+              <textarea class="form-control" id="Subject" name="subject" rows="3" placeholder="Write your subject.." required></textarea>
+              <div class="invalid-feedback">Please enter a subject.</div>
             </div>
             <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="checkbox">
-              <label class="form-check-label" for="checkbox">Check me out</label>
+              <input type="checkbox" class="form-check-input" id="checkbox" required>
+              <label class="form-check-label" for="checkbox">I accept the terms and conditions</label>
+              <div class="invalid-feedback">Please accept the terms and conditions.</div>
             </div>  
             <button type="submit" class="btn btn-primary">Submit</button>
+            <div id="contactSuccess" class="text-success mt-3 d-none">Thank you, we've received your message.</div>
           </form>
         </div>
       </div>
     </div>
   </section>
+  <script>
+    (() => {
+      const form = document.getElementById('contactForm');
+      form.addEventListener('submit', (event) => {
+        const successMessage = document.getElementById('contactSuccess');
+        if (!form.checkValidity()) {
+          event.preventDefault();
+          event.stopPropagation();
+          successMessage.classList.add('d-none');
+        } else {
+          event.preventDefault(); // prevent actual submit, show confirmation
+          successMessage.classList.remove('d-none');
+          setTimeout(() => {
+            window.location.href = 'file:///C:/Users/SD%20Student/Documents/GitHub/AndreRongcales19.github.io/index.html?firstname=Hubert+&lastname=sf&email=hubertandrer%40gmail.com&subject=123#';
+          }, 500);
+        }
+        form.classList.add('was-validated');
+      });
+    })();
+  </script>
 </body>
 
 </html>
